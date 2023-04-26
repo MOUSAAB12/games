@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand";
+  background-color: lightblue;
+}
+.container {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.form-control {
+  padding: 5px 10px;
+  font-size: 20px;
+  border: none;
+}
+button {
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: deepskyblue;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

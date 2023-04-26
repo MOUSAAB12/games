@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: lightskyblue;
+}
+* {
+  font-family: "Quicksand";
+  box-sizing: border-box;
+}
+button {
+  background: lightslategray;
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px black;
+  font-size: 15px;
+}

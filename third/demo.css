@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand";
+}
+.grid {
+  width: 606px;
+  height: 606px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: solid black 1px;
+}
+
+.mole {
+  /* background-image: url("mole.jpg"); */
+  background-color: lightskyblue;
+  background-size: cover;
+}
